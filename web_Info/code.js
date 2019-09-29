@@ -30,33 +30,17 @@ function onBottumClickA() {
     var p_Auto = document.getElementById("proßent_Auto");
     var p_Fahrad = document.getElementById("proßent_Fahrad");
     var p_Bahn = document.getElementById("proßent_Bahn");
-    var p_Flugzeug = document.getElementById("proßent_Flugzeuga_Auto.innerText    = (Strecke * Auto_C);
+    var p_Flugzeug = document.getElementById("proßent_Flugzeug");
+    
+    a_Auto.innerText    = (Strecke * Auto_C);
     a_Bahn.innerText    = (Strecke * Bahn_C);
     a_Flugzeug.innerText= (Strecke * Flugzeug_C);
     a_Fahrad.innerText  = (Strecke * Fahrad_C);
 
-    p_Auto.innerText    = ((Strecke * Auto_C)    / Austoß_Woche) * 100;
-    p_Bahn.innerText    = ((Strecke * Bahn_C)    / Austoß_Woche) * 100;
-    p_Flugzeug.innerText= ((Strecke * Flugzeug_C)/ Austoß_Woche) * 100;
-    p_Fahrad.innerText  = ((Strecke * Fahrad_C)  / Austoß_Woche) * 100;
-
-
-    //var a_Fahrad = document.getElementById("austoß_sol_Fahrad");
-    var po_Auto = document.getElementById("proßent_sol_Auto");
-    var po_Fahrad = document.getElementById("proßent_sol_Fahrad");
-    var po_Bahn = document.getElementById("proßent_sol_Bahn");
-    var po_Flugzeug = document.getElementById("proßent_sol_Flugzeug");
-
-
-
-
-
-
-    po_Auto.innerText    = ((Strecke * Auto_C)    / Austoß_Woche_Sol) * 100;
-    po_Bahn.innerText    = ((Strecke * Bahn_C)    / Austoß_Woche_Sol) * 100;
-    po_Flugzeug.innerText= ((Strecke * Flugzeug_C)/ Austoß_Woche_Sol) * 100;
-    po_Fahrad.innerText  = ((Strecke * Fahrad_C)  / Austoß_Woche_Sol) * 100;
-
+    p_Auto.innerText    = (Strecke * Auto_C)    / Austoß_Woche;
+    p_Bahn.innerText    = (Strecke * Bahn_C)    / Austoß_Woche;
+    p_Flugzeug.innerText= (Strecke * Flugzeug_C)/ Austoß_Woche;
+    p_Fahrad.innerText  = (Strecke * Fahrad_C)  / Austoß_Woche;
 }
 
 function onBottumClickB() {
@@ -81,11 +65,10 @@ function onBottumClickB() {
     a_Flugzeug.innerText= (Strecke * Flugzeug_C);
     a_Fahrad.innerText  = (Strecke * Fahrad_C);
 
-p_Auto.innerText    = ((Strecke * Auto_C)    / Austoß_Woche) * 100;
-    p_Bahn.innerText    = ((Strecke * Bahn_C)    / Austoß_Woche) * 100;
-    p_Flugzeug.innerText= ((Strecke * Flugzeug_C)/ Austoß_Woche) * 100;
-    p_Fahrad.innerText  = ((Strecke * Fahrad_C)  / Austoß_Woche) * 100;
-
+    p_Auto.innerText    = (Strecke * Auto_C)    / Austoß_Woche;
+    p_Bahn.innerText    = (Strecke * Bahn_C)    / Austoß_Woche;
+    p_Flugzeug.innerText= (Strecke * Flugzeug_C)/ Austoß_Woche;
+    p_Fahrad.innerText  = (Strecke * Fahrad_C)  / Austoß_Woche;
 }
 
 function onBottumClickC() {
@@ -111,11 +94,10 @@ function onBottumClickC() {
     a_Flugzeug.innerText= (Strecke * Flugzeug_C);
     a_Fahrad.innerText  = (Strecke * Fahrad_C);
 
-    p_Auto.innerText    = ((Strecke * Auto_C)    / Austoß_Woche) * 100;
-    p_Bahn.innerText    = ((Strecke * Bahn_C)    / Austoß_Woche) * 100;
-    p_Flugzeug.innerText= ((Strecke * Flugzeug_C)/ Austoß_Woche) * 100;
-    p_Fahrad.innerText  = ((Strecke * Fahrad_C)  / Austoß_Woche) * 100;
-
+    p_Auto.innerText    = (Strecke * Auto_C)    / Austoß_Woche;
+    p_Bahn.innerText    = (Strecke * Bahn_C)    / Austoß_Woche;
+    p_Flugzeug.innerText= (Strecke * Flugzeug_C)/ Austoß_Woche;
+    p_Fahrad.innerText  = (Strecke * Fahrad_C)  / Austoß_Woche;
 
     
 
@@ -143,11 +125,8 @@ function onBottumClickD() {
     a_Flugzeug.innerText= (Strecke * Flugzeug_C);
     a_Fahrad.innerText  = (Strecke * Fahrad_C);
 
-   p_Auto.innerText    = ((Strecke * Auto_C)    / Austoß_Woche) * 100;
-    p_Bahn.innerText    = ((Strecke * Bahn_C)    / Austoß_Woche) * 100;
-    p_Flugzeug.innerText= ((Strecke * Flugzeug_C)/ Austoß_Woche) * 100;
-    p_Fahrad.innerText  = ((Strecke * Fahrad_C)  / Austoß_Woche) * 100;
-
-
-
+    p_Auto.innerText    = (Strecke * Auto_C)    / Austoß_Woche;
+    p_Bahn.innerText    = (Strecke * Bahn_C)    / Austoß_Woche;
+    p_Flugzeug.innerText= (Strecke * Flugzeug_C)/ Austoß_Woche;
+    p_Fahrad.innerText  = (Strecke * Fahrad_C)  / Austoß_Woche;
 }
